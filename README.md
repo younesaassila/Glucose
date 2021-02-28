@@ -6,7 +6,13 @@ Syntactic Sugar for Brainfuck
 
 ## Table of Contents
 
+- [Types](#types)
+
+  - [Signed Integer](#signed-integer)
+  - [ASCII Character](#ascii-character)
+
 - [Commands](#commands)
+
   - [Comments](#comments)
   - [add](#add)
   - [sub](#sub)
@@ -17,6 +23,24 @@ Syntactic Sugar for Brainfuck
   - [\]](#])
   - [print](#print)
   - [input](#input)
+
+- [File Extension](#file-extension)
+
+- [Rules for Compilers](#rules-for-compilers)
+
+## Types
+
+### Signed Integer
+
+**Description:** A signed integer is an integer that can either be positive or negative. It _may_ be written in hexadecimal with the prefix `0x` or in binary with the prefix `0b`.
+
+### ASCII Character
+
+**Description:** An ASCII character can be any character from the following table:
+
+![ASCII Table](https://upload.wikimedia.org/wikipedia/commons/c/cf/USASCII_code_chart.png)
+
+**Syntax:** An ASCII character _must_ be surrounded by a pair of single quotes.
 
 ## Commands
 
@@ -121,7 +145,7 @@ set 2 # Cell 3: 4, Cell 1: 2
 
 All Brainfucked files _must_ use the `.bfd` file extension.
 
-## Compiler Rules
+## Rules for Compilers
 
 - Brainfucked compilers _may_ allow the use of parentheses to delimit code blocks.
 
