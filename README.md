@@ -1,6 +1,6 @@
 # Brainfucked
 
-✨ Syntactic Sugar for Brainfuck
+Syntactic Sugar for Brainfuck
 
 [Learn more about Brainfuck](https://en.wikipedia.org/wiki/Brainfuck)
 
@@ -31,11 +31,11 @@
 
 - `amount` (`signed int` or `ascii char`)
 
-**Example :**
+**Example:**
 
-```text
+```bash
 add 3 # Add 3 to the current byte.
-add A # Add 65 to the current byte.
+add 'A' # Add 65 to the current byte.
 ```
 
 ### `sub`
@@ -46,11 +46,11 @@ add A # Add 65 to the current byte.
 
 - `amount` (`signed int` or `ascii char`)
 
-**Example :**
+**Example:**
 
-```text
+```bash
 sub 3 # Subtract 3 to the current byte.
-sub A # Subtract 65 to the current byte.
+sub 'A' # Subtract 65 to the current byte.
 ```
 
 ### `set`
@@ -61,11 +61,11 @@ sub A # Subtract 65 to the current byte.
 
 - `value` (`signed int` or `ascii char`)
 
-**Example :**
+**Example:**
 
-```text
+```bash
 set 3 # Current value: 3
-set 4 # Current value: 4
+set 'A' # Current value: 65
 ```
 
 ### `mov`
@@ -76,9 +76,9 @@ set 4 # Current value: 4
 
 - `amount` (`signed int`)
 
-**Example :**
+**Example:**
 
-```text
+```bash
 mov 1 # Increment the data pointer.
 mov -1 # Decrement the data pointer.
 ```
@@ -91,9 +91,9 @@ mov -1 # Decrement the data pointer.
 
 - `number` (`signed int`)
 
-**Example :**
+**Example:**
 
-```text
+```bash
 goto 3
 set 4 # Cell 3: 4
 goto 1
