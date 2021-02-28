@@ -147,8 +147,6 @@ All Brainfucked files _must_ use the `.bfd` file extension.
 
 ## Rules for Compilers
 
-- Brainfucked compilers _may_ allow the use of parentheses to delimit code blocks.
-
 - Brainfucked compilers _may_ allow the user to specify a custom cell size, memory size and memory overflow behavior. Brainfuck _must_ otherwise assume a cell size of 8 bits with an infinite memory size and undefined memory overflow behavior.
 
 - Brainfucked compilers _must_ throw an error when an unknown command or invalid argument is encountered. Brainfuck code is _not allowed_ within Brainfucked.
