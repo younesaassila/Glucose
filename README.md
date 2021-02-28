@@ -4,20 +4,21 @@ Syntactic Sugar for Brainfuck
 
 [Learn more about Brainfuck](https://en.wikipedia.org/wiki/Brainfuck)
 
+## Table of Contents
+
+- [Commands](#commands)
+  - [Comments](#comments)
+  - [add](#add)
+  - [sub](#sub)
+  - [set](#set)
+  - [mov](#mov)
+  - [goto](#goto)
+  - [\[](#[)
+  - [\]](#])
+  - [print](#print)
+  - [input](#input)
+
 ## Commands
-
-### Contents
-
-- [Comments](#comments)
-- [add](#add)
-- [sub](#sub)
-- [set](#set)
-- [mov](#mov)
-- [goto](#goto)
-- [\[](#[)
-- [\]](#])
-- [print](#print)
-- [input](#input)
 
 ### Comments
 
