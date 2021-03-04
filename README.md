@@ -143,7 +143,7 @@ set 2 # Cell 3: 4, Cell 1: 2
 
 ## File Extension
 
-All Glucose files _must_ use the `.bfd` file extension.
+All Glucose files _must_ use the `.gluc` file extension.
 
 ## Rules for Compilers
 
