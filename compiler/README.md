@@ -1,4 +1,4 @@
-# Brainfucked Compiler
+# Glucose Compiler
 
 ## Install
 
